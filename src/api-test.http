@@ -1,0 +1,25 @@
+### Caso 1: Enviar un Mutante (Debe dar 200 OK)
+POST http://localhost:8080/mutant
+Content-Type: application/json
+
+{
+  "dna": [
+    "AAAA",
+    "CCCC",
+    "TCAG",
+    "GGTC"
+  ]
+}
+
+### Caso 2: Enviar un Humano (Debe dar 403 Forbidden)
+POST http://localhost:8080/mutant
+Content-Type: application/json
+
+{
+  "dna": [
+    "AAAT",
+    "CCCG",
+    "TCAG",
+    "GGTC"
+  ]
+}
