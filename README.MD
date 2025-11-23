@@ -69,7 +69,7 @@ Clonar el repositorio:
 
 Bash
 
-git clone [https://github.com/TU_USUARIO/mutant-detector.git](https://github.com/TU_USUARIO/mutant-detector.git)
+git clone [https://github.com/LucianoMasAndres/mutant-detector.git](https://github.com/LucianoMasAndres/mutant-detector.git)
 cd mutant-detector
 Ejecutar con Gradle:
 
